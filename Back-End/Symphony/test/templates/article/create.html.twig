@@ -1,0 +1,16 @@
+{{% extends 'base.html.twig' %}
+
+{% block main %}
+
+	<h1>Creation Article</h1>
+
+	{{ form_start(viewForm) }}
+
+	{{form_widget(viewForm)}}
+
+	<button type="submit">+</button>
+
+	{{ form_end(viewForm) }}
+
+
+{% endblock main %}}

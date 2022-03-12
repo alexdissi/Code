@@ -1,0 +1,45 @@
+body {
+   background-color: red;
+}
+input , textarea
+{
+    border-bottom: none;
+border-bottom: 3px solid green;}
+
+.h1:hover {
+    background-color: tomato;
+}
+
+button {
+    padding: 5px;
+    border: 2px black solid;
+    color: white;
+}
+
+button:hover{
+    background-color: wheat;
+}
+
+.annule { 
+    background-color: red;
+
+}
+
+
+.valide {
+    background-color: blue;
+    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      text-align: center;
+      background-color: blue;
+    }
+}
+
+    @media screen and (max-width: 800px) and (min-width: 700px) {
+        body {
+          background-color: green;
+        }
+    }

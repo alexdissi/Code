@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap');
+
+body {
+background-color: #202124;
+color: #fff;
+}
+
+.bg-danger {
+  background-color: #6261FE!important;
+}
+
+nav {
+  padding: 10px;
+  box-shadow: -1px 6px 58px 0px rgba(98,97,254,0.75);
+-webkit-box-shadow: -1px 6px 58px 0px rgba(98,97,254,0.75);
+-moz-box-shadow: -1px 6px 58px 0px rgba(98,97,254,0.75);
+}
+
+.courouselArticle {
+ margin: 4% 3%;
+}
+
+.titre_articles {
+  font-family: 'Averia Libre', cursive;
+  color: whitesmoke;
+  text-decoration: underline;
+  margin-left: 3%;
+  text-align: center;
+
+}
+
+.articles {
+  font-family: "Averia Libre", cursive;
+  background: rgba( 255, 255, 255, 0.1 );
+  backdrop-filter: blur( 11px );
+  -webkit-backdrop-filter: blur( 11px );
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+  margin: 2% auto;
+}
+
+.articles:hover {
+  cursor: pointer;
+}
+
+.article {
+  margin: 2% 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: justify;
+}
+
+.article > img {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #6261FE;
+}
+
+body::-webkit-scrollbar-track {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.form-style {
+  max-width: 600px;
+  font-family: "Averia Libre", cursive;
+  color: black;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 60px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: -2px 16px 45px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 16px 45px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 16px 45px 0px rgba(0, 0, 0, 0.75);
+  animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.form-style h2 {
+  text-align: center;
+  margin-top: -2%;
+  padding: 10px;
+  font-family: "Averia Libre", cursive;
+}
+
+h2 span {
+  color: #6261FE;
+  text-align: center;
+  font-family: "Averia Libre", cursive;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style input[type="tel"],
+.form-style input[type="password"] {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(155, 11, 11, 0.904);
+  border: 2px solid #cbd0da;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+.showPassword {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  margin-top: -7%;
+  margin-bottom: 2%;
+  justify-content: center;
+  width: 100%;
+}
+
+.showPassword i {
+  cursor: pointer;
+  color: #9b9b9b;
+}
+
+.showPassword span {
+  color: #6261FE;
+}
+
+.cgu-form {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.cgu-form span {
+  color: #6261FE;
+}
+
+form > ::placeholder {
+  text-align: center;
+}
+
+.buttonAjoutArticle {
+  margin-right: 15px;
+}
+
+/* From cssbuttons.io */
+.btnForm {
+  position: relative;
+  border: none;
+  margin-top: 20px;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+.edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: #d2d2d2
+}
+
+.front {
+  display: block;
+  position: relative;
+  padding: 9px 17px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: #6261FE;
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+.btnForm:hover {
+  filter: brightness(110%);
+}
+
+.btnForm:hover .front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.btnForm:active .front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.btnForm:hover .shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.btnForm:active .shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.btnForm:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.moncompte {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 2% auto;
+  gap: 1em
+}
+
+.moncompte > h1 {
+  text-align: center;
+}
+
+.infoMonCompte {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap:10px;
+  margin: 0 auto;
+}
+
+.link-danger {
+  color: #6261FE!important;
+}
+
+
+@media (max-width: 640px) { 
+.articles {
+  width: 90%;
+  margin-bottom: 2%;
+}
+ }

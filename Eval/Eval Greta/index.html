@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" id="theme-link" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body data-theme="light">
+    <!--Boutton switch darkMode / lightMode-->
+    <label id="dark-change"></label>
+
+    <!--NavBar creer en JS avec Menu Burger pour le Mobile-->
+    <header>
+      <img src="greta.png" id="imgNav" />
+      <ul class="nvbar"></ul>
+      <!--Icon du Burger Menu avec font awesome-->
+      <div id="mobile-menu">
+        <i class="fas fa-bars burger-menu"></i>
+      </div>
+    </header>
+
+    <!--Afficage du menu Burger pour les Mobiles avec lien de nav en JS-->
+    <div class="menu-mobile">
+      <ul class="nvbar2"></ul>
+    </div>
+
+    <!--Mini Cards de chaque etudiant avec les infos pour chacun-->
+    <main>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Alexandre <span class="name-card">Dissi</span></h2>
+        <span class="age-card">23 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Theo <span class="name-card">Galland</span></h2>
+        <span class="age-card">22 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Naceur <span class="name-card">Mejbeur</span></h2>
+        <span class="age-card">21 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Diallo</h2>
+        <span class="age-card">44 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Habib</h2>
+        <span class="age-card">26 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Ismail</h2>
+        <span class="age-card">21 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Djamel</h2>
+        <span class="age-card">44 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Fanny</h2>
+        <span class="age-card">29 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Fatimé</h2>
+        <span class="age-card">25 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Omar <span class="name-card">Diop</span></h2>
+        <span class="age-card">22 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Mustapha</h2>
+        <span class="age-card">44 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Salim</h2>
+        <span class="age-card">21 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Xavier</h2>
+        <span class="age-card">34 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+      <div class="mini-card">
+        <img src="https://picsum.photos/100" class="photo-mini-card" />
+        <h2>Brandon</h2>
+        <span class="age-card">27 ans</span>
+        <button class="card-button">Voir Profil</button>
+      </div>
+    </main>
+
+    <!--Modal avec les infos precise pour 1 etudiants-->
+    <div class="info-contact" id="myContact">
+      <div class="inside-info-contact">
+        <span class="close">&times;</span>
+
+        <div class="modal-content">
+          <img src="https://picsum.photos/200" alt="" />
+          <h2>Alexandre Dissi</h2>
+
+          <span>23 ans</span>
+          <span>06 86 68 14 47</span>
+          <span>alexandredissi@gmail.com</span>
+          <span>Developpeur Web Full Stack</span>
+          <button>
+            <a href="https://linkedin.com" target="blank">Voir son CV</a>
+          </button>
+          <h3>HTML</h3>
+          <div class="progress-bar">
+            <div class="gradient-bar" id="progressHTML"></div>
+          </div>
+          <h3>CSS</h3>
+          <div class="progress-bar">
+            <div class="gradient-bar" id="progressCSS"></div>
+          </div>
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="gradient-bar" id="progressJS"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer basique-->
+    <footer>
+      <p>
+        DWWM , Greta 93 Noisy-Le-Grand , Alexandre
+        <span id="footer-name">Dissi</span>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

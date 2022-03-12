@@ -1,0 +1,17 @@
+body {
+    background-color: red;
+}
+
+.calcul {
+
+    margin-right: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#submit {
+    margin-top: 1%;
+    margin-left: 2%;
+}

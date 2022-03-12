@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+   {% for article in articles %}
+
+   <li><a href="{{ path('article',{id:article.id}) }}">{{ article.titre}}</a></li>
+
+<a href="{{ path('create_article') }}" class="btn">Ajouter article</a>
+<a href="{{ path('update_article') }}" class="btn">update article</a>
+
+
+   <p>{{ article.contenu }}</p>
+   <img src="{{ article.image}}"</img>
+
+   {% endfor %}
+
+   {% endblock %}

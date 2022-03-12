@@ -1,0 +1,14 @@
+li {
+    flex-direction: row;
+    list-style-type: none;
+    display: inline;
+}
+
+
+li::after {
+   content: ",";
+}
+:nth-last-child(2)::after {
+    content: " et" ;
+}
+ 

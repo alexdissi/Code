@@ -1,0 +1,15 @@
+{
+    "editor.fontFamily": "Victor mono,Menlo, Monaco, 'Courier New', monospace",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.guides.bracketPairs": "active",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Bearded Theme Anthracite",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontSize": 13,
+    "git.confirmSync": false
+}

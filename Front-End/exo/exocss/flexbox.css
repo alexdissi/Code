@@ -1,0 +1,19 @@
+.flex1 {
+display: flex;
+border: red solid 2px;
+flex-wrap: wrap;
+
+}
+.flex1>div,
+.flex1>img {
+    border: greenyellow solid 2px;
+    width: 200px;
+}
+.rowreverse {
+    flex-direction: row-reverse;
+}
+
+.sb {
+
+    justify-content: space-between;
+}

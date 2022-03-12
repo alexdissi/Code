@@ -1,0 +1,79 @@
+body {
+    background-image: repeating-linear-gradient(45deg, rgba(97,97,97,0.1) 0px, rgba(97,97,97,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(43,43,43),rgb(43,43,43));background-image: linear-gradient(45deg, rgba(187, 187, 187,0.04) 0%, rgba(187, 187, 187,0.04) 50%,rgba(86, 86, 86,0.04) 50%, rgba(86, 86, 86,0.04) 100%),linear-gradient(135deg, rgba(166, 166, 166,0.04) 0%, rgba(166, 166, 166,0.04) 50%,rgba(92, 92, 92,0.04) 50%, rgba(92, 92, 92,0.04) 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20)); background-size: 142px 142px;}
+h1 {
+    color: whitesmoke;
+}
+
+button {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    margin-top: 20px;
+    background: #5351fe;
+    font-size: 19px;
+    text-align: center;
+    width: 50%;
+    border: none;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 5px 38px 0px rgba(83, 81, 254, 0.75);
+    -webkit-box-shadow: 1px 5px 38px 0px rgba(83, 81, 254, 0.75);
+    -moz-box-shadow: 1px 5px 38px 0px rgba(83, 81, 254, 0.75);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+input {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(155, 11, 11, 0.904);
+    border: 2px solid #cbd0da;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+#search {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 20px;
+}
+
+#resultat {
+    width: 50%;
+    background: #5351fe;
+   color: white;
+   height: auto;
+padding: 10px;
+font-size: 30px;
+margin: 1% auto;
+border-radius: 10px;
+box-shadow: 1px 5px 38px 0px rgba(83, 81, 254, 0.75);
+-webkit-box-shadow: 1px 5px 38px 0px rgba(83, 81, 254, 0.75);
+-moz-box-shadow: 1px 5px 38px 0px rgba(83, 81, 254, 0.75);
+display: none;
+text-align: center;
+flex-direction: column;
+align-items: center;
+gap: 1em;
+}
+

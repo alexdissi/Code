@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styleForm.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body data-theme="light">
+    <label id="dark-change"></label>
+
+    <header>
+      <img src="greta.png" id="imgNav" />
+      <ul class="nvbar"></ul>
+      <div id="mobile-menu">
+        <i class="fas fa-bars burger-menu"></i>
+      </div>
+    </header>
+
+    <div class="menu-mobile">
+      <ul class="nvbar2"></ul>
+    </div>
+
+    <div class="menu-mobile">
+      <ul class="nvbar2"></ul>
+    </div>
+
+    <main>
+      <div class="form-style">
+        <form class="Formulaire" method="post">
+          <label for="nom">Entrez votre nom : </label>
+          <input type="text" name="nom" id="nom" maxlength="20" required />
+          <span id="missnom"></span><br />
+
+          <label for="prenom">Entrez votre prénom : </label>
+          <input type="text" name="prenom" id="prenom" maxlength="20" />
+          <span id="missPrenom"></span><br />
+
+          <label for="tel">Numéro de téléphone :</label>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            maxlength="10"
+            minlength="10"
+            required
+            pattern="[0-10]$"
+          /><br />
+
+          <label for="mail">Entrez votre mail : </label>
+          <input type="email" name="mail" id="mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /><br/>
+
+          <label for="sujet">Entrez le sujet : </label>
+          <input
+            type="text"
+            name="sujet"
+            id="sujet"
+            maxlength="20"
+            required
+          /><br />
+
+          <label for="message"> votre message : </label>
+          <textarea name="message" id="message" required></textarea><br />
+
+          <input type="submit" value="Valider" id="bouton_envoi" />
+        </form>
+      </div>
+    </main>
+
+    <!--Footer basique-->
+    <footer>
+      <p>
+        DWWM , Greta 93 Noisy-Le-Grand , Alexandre
+        <span id="footer-name">Dissi</span>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+body {
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+#navbar {
+display: flex;justify-content: space-around;
+border: solid; color: black;
+    background-color: floralwhite;
+    border-width: 2px;
+    margin: 10px;
+    margin-top: 30px;
+  border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+#photocv {
+border-radius: 30%;
+border-style: outset;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+hr {
+    border-color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#div1 {
+text-align: center;
+
+}
+
+.BarP{
+    border: black 2px;
+    width: 90%;
+    height: 15px;
+    background-color: floralwhite;
+    border:solid black;
+ 
+ 
+ 
+ }
+ .BarE{
+ 
+ 
+     height: 100%;
+    background-color: #feada6 ;
+ }
+
+.loisirsul {
+display: flex;
+justify-content: space-around;
+margin-right: 5%;
+margin-left: 5%;
+}
+
+.loisirsli {
+
+    text-align: center;
+}
+
+.img2 {
+border: solid black;
+
+}
+
+.contact{
+    text-align: center;
+}
+::placeholder {
+    text-align: center;
+}

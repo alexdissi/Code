@@ -1,0 +1,46 @@
+.flex1 {
+border: red solid 4px;
+height: 600px;
+width: 1000px;
+background-color: red;
+display: flex;
+flex-wrap: wrap;
+padding: 2%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.flex2 {
+    height: 50%;
+    width: 50%;
+    background-color:pink;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+
+}
+.flex3 {
+    height: 50%;
+    width: 50%;
+    background-color:blue;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+
+}
+.flex4 {
+    height: 50%;
+    width: 50%;
+    background-color:yellow;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+.flex5 {
+    height: 50%;
+    width: 50%;
+    background-color:black;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+
+}

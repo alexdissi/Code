@@ -1,0 +1,23 @@
+body{
+    transition: 0.7s;
+    }
+ 
+    .mode {
+        float:right;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .change {
+        cursor: pointer;
+        border: 1px solid #555;
+        border-radius: 20%;
+        width: 20px;
+        text-align: center;
+        padding: 5px;
+     
+    }
+    .dark{
+        background-color: #222;
+        color: #e6e6e6;
+    }

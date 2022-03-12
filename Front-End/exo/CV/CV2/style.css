@@ -1,0 +1,92 @@
+body {
+   background-color: blanchedalmond;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+max-width: 1080px;
+    margin: auto;
+display: flex;flex-wrap: wrap;
+} 
+   
+
+article {
+    display: flex;flex-direction: row;
+
+}
+.gauche {
+    display: flex;flex-direction: column;
+    background-color: burlywood;
+    width: 30%;
+    height: 100%;
+    border-style: solid ;
+    border-right-color: black;
+    max-width: 80%;
+}
+.droit {
+    display: flex;flex-direction: column;
+    text-align: center;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+#photocv {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#experiences {
+    text-align: center;
+}
+
+.droit
+{
+    margin-left: 3%;
+}
+
+
+
+.BarP{
+    border: black 2px;
+    width: 80%;
+    height: 15px;
+    background-color: floralwhite;
+    border:solid black;
+    text-align:center;
+ 
+ 
+ 
+ }
+ .BarE{
+ 
+ 
+     height: 100%;
+    background-color: #feada6 ;
+    text-align: center;
+ }
+
+.langues
+{
+    list-style-type: none;
+}
+
+.formation
+{
+    list-style-type: none;
+}
+
+.loisirsul {
+    display: flex;justify-content: space-around;
+}
+
+
+@media screen and (max-width: 600px) {
+ article {
+     display: flex;flex-wrap: wrap;
+ }
+}

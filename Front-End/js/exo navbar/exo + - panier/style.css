@@ -1,0 +1,7 @@
+.fenetreouverte {
+    color: red;
+    position: absolute;
+    display: none;
+    border-style: solid 8px black;
+    
+}
